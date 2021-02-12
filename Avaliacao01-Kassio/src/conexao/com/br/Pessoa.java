@@ -1,3 +1,5 @@
+package conexao.com.br;
+
 import java.util.Scanner;
 
 public class Pessoa implements Metodos {

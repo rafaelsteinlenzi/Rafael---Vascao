@@ -1,3 +1,5 @@
+package conexao.com.br;
+
 
 public enum Categoria {
 

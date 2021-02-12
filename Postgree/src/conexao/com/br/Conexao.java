@@ -10,7 +10,8 @@ import java.sql.Statement;
 
 public class Conexao {
 	public static void main(String[] args) {
-		Connection conn = new ConnectionFactory().getConnection();
+		
+	Connection conn = new ConnectionFactory().getConnection();
 		
 		String comando = "CREATE TABLE IF NOT EXISTS CLIENTE ("
 				+ "id serial not null,"
@@ -54,5 +55,7 @@ public class Conexao {
 				
 			
 		
-		}
+		}	
+		
+	
 }
