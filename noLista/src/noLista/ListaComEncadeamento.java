@@ -1,5 +1,6 @@
 package noLista;
 
+
 public class ListaComEncadeamento {
 	private NoLista first;
 	private NoLista last;

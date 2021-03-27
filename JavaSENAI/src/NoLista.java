@@ -1,9 +1,9 @@
-package noLista;
 
 
-public class NoLista {
 
-	private Integer info;
+public class NoLista<T> extends ListaComEncadeamento{
+
+	private T info;
 	private NoLista prox;
 	
 	
@@ -18,7 +18,7 @@ public class NoLista {
 	}
 
 
-	public NoLista(Integer info, NoLista prox) {
+	public NoLista(T info, NoLista prox) {
 		
 		this.info = info;
 		this.prox = prox;
@@ -26,12 +26,12 @@ public class NoLista {
 
 	
 
-	public Integer getInfo() {
+	public T getInfo() {
 		return info;
 	}
 
 
-	public void setInfo(Integer info) {
+	public void setInfo(T info) {
 		this.info = info;
 	}
 
